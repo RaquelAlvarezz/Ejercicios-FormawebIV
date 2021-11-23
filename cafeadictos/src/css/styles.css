@@ -1,0 +1,112 @@
+@import url(../index.html);
+@font-face {
+    font-family: 'Damion-Regular';
+src: url('../fonts/Damion/Damion-Regular.ttf');
+}
+@font-face {
+    font-family: 'Gidole-Regular';
+src: url('../fonts/gidole/Gidole-Regular.ttf');
+}
+nav{
+    
+    position: fixed;
+    background-color:rgb(131, 79, 12);
+    opacity:0.7;
+    width: 100%;
+    text-align: center;
+    
+}
+body{
+    background-color:sienna;
+    height: 1500px;
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+}
+li {
+    
+    color:white;
+    font-weight: 700;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor:pointer;
+    margin-right: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+li:hover {
+    color:goldenrod;
+  }
+ #logo{
+     font-family:'Damion-Regular';
+     font-size: 26px;
+     color:rgb(255, 196, 0);
+ }
+ #logo:hover{ 
+     color:white;
+ }
+h1{
+    font-family:'Damion-Regular';
+    text-align: center;
+    color:rgb(202, 161, 100);
+}
+.titulo{
+    font-family:'Damion-Regular';
+    text-align: center;
+    color:rgb(226, 151, 10);
+    font-size: 50px;
+    position:absolute;
+    top: 150px;
+    bottom: 0px;
+    right:50px;
+    left:50px ;
+}
+#historia{
+    text-align:center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a { color: inherit; }
+.titulo2{
+    font-family:'Gidole-Regular';
+    text-align: center;
+    color:rgb(228, 176, 80);
+    font-size: 25px;
+    position:absolute;
+    top: 280px;
+    bottom: 0px;
+    right:50px;
+    left:50px ;
+}
+    #carta{
+        background-image:url('../img/Captura.PNG');
+        background-size:cover;
+        text-align:center;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        height: 50px;
+        background-color:white;
+    }
+   
+  
+    .grid-container {
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: auto auto auto;
+        text-align: center;
+        margin-right: 30px;
+        
+      }
+      h4{
+          font-family:'Damion-Regular';
+        text-align: center;
+        color:rgb(202, 161, 100);
+
+      }
+      footer{
+        text-align: center;
+        background-color:rgb(92, 10, 10)
+    }

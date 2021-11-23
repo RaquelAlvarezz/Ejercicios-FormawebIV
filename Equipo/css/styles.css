@@ -1,0 +1,111 @@
+/*FONT FAMILIES*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*RESET UNIVERSAL*/
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+
+/*PROFILE PHOTOS*/
+.profile {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    animation: profile 5s linear ;
+  }
+
+  @keyframes profile {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+
+/*TITLE*/
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 100px;
+    
+    padding-left: 24%;
+    color: rgba(32, 32, 32, 0.739);
+    text-shadow: 5px 5px 10px rgb(99, 110, 255);
+}
+h2{
+    text-shadow: 5px 5px 10px rgb(44, 44, 44);
+} 
+
+.container{
+    background: url(../img/fondo.jpg) center no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/*COLUMNS DATA*/
+.columns{
+    display: flex;
+    font-family: 'Barlow', sans-serif;
+}
+.column1{
+    margin-left: 1%;
+    background:rgba(116, 227, 255, 0.76) ;
+    flex: 30%;
+    padding:2%;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5%;
+    box-shadow:4px 20px 20px  rgb(68, 31, 1);
+
+}
+.column2{
+    margin-left: 1%;
+    background: rgba(116, 227, 255, 0.76) ;
+    flex:30%;
+    padding:2%;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5%;
+}
+.column3{
+    margin-left: 1%;
+    margin-right: 1%;
+    background: rgba(116, 227, 255, 0.76) ;
+    flex:30%;
+    padding:2%;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5%;
+}
+p{
+    text-align: justify;
+    padding-top: 1%;
+}
+
+/*ICONS INTERACTIVE*/ 
+i{
+    padding: 4%;
+    font-size: 45px;
+    text-shadow: 5px 5px 7px rgb(66, 66, 66); 
+    
+}
+i:hover{
+color: rgb(0, 23, 85);
+text-shadow: 5px 5px 10px black;
+}
+button{
+    margin-top: 3%;
+    padding: 2%;
+    background-color: rgb(136, 0, 247);
+    font-family: 'Bebas Neue', cursive;
+    font-size:25px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bolder;
+    color:rgba(0, 0, 0, 0.705);
+    text-shadow: 5px 5px 10px rgb(8, 4, 0);;
+    border-radius: 8%;
+    border-color: rgb(14, 7, 2);
+
+}
