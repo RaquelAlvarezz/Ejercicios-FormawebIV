@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+ background-image:url(../img/flower-g59389d559_1920.jpg);
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  opacity: 0.7;
+}
+
+ 
+  
+  main {
+    flex: 1 0 auto;
+  }

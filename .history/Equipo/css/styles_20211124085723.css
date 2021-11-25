@@ -111,7 +111,7 @@
 
 .job{
 	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	color: rgb(12, 12, 12);
+	color: #777;
 	font-weight: 300;
 	font: size 12px;
 }
@@ -130,7 +130,7 @@
 	width: 120px;
 	padding: 7px;
 	margin: 10px 0;
-	background-color: rgb(10, 17, 39);
+	background-color: rgb(4, 30, 116);
 	border: none;
 	outline: none;
 	border-radius: 25px;
