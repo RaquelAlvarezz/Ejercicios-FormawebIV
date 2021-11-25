@@ -1,0 +1,1 @@
+He realizado un cuestionario de creación de cuenta de usuario, he enlazado javascript para incorporar las validaciones de formulario
