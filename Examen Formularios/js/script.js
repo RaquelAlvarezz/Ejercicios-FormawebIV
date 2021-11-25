@@ -50,19 +50,16 @@ headerTemplate.innerHTML = `
        </div>
    </div>
 `;
-
 class Header extends HTMLElement {
-  constructor() {
-    super();
-  }
-
-  connectedCallback() {
-    const shadowRoot = this.attachShadow({ mode: 'closed' });
-
-    shadowRoot.appendChild(headerTemplate.content);
-  }
-}
-customElements.define('header-component', Header);
+    constructor() {
+      super();
+    }
+  
+    connectedCallback() {
+      const shadowRoot = this.attachShadow({ mode: 'closed' });
+  
+      shadowRoot.appendChild(headerTemplate.content);
+    }
 const form = document.getElementById('form');
 
 const username = document.querySelector("[name='username']");

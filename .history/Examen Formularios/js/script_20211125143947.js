@@ -51,18 +51,6 @@ headerTemplate.innerHTML = `
    </div>
 `;
 
-class Header extends HTMLElement {
-  constructor() {
-    super();
-  }
-
-  connectedCallback() {
-    const shadowRoot = this.attachShadow({ mode: 'closed' });
-
-    shadowRoot.appendChild(headerTemplate.content);
-  }
-}
-customElements.define('header-component', Header);
 const form = document.getElementById('form');
 
 const username = document.querySelector("[name='username']");
