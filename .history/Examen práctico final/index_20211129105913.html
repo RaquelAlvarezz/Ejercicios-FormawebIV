@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" type="text/javascript" defer></script>
+    <script src="js/footer.js" type="text/javascript" defer></script>
+  
+    <link rel="icon" href="img/1574-spa-flower-outline.gif">
+    <title>Templates</title>
+</head>
+<body>
+    <header-component></header-component>
+   <main>
+        <div class="container" id="container">
+            <div class="content1  sign-in-container"> 
+                <form class="login">
+                    <h2 class="tituloForm1">Login</h2> 
+                    <p class="texto"> Acesse com um e-mail existente</p>
+                    <div class="socialMedia">
+                        <a  class="icone4" href="#"><i class="fab fa-google-plus-g"></i></a>
+                        <a class="icone5" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a  class="icone6" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <p class="texto">Ou faça o login com os dados criados aqui</p>
+                    <label class="label-input">
+                        <i class="far fa-envelope icon-modificado"></i>
+                        <input type="email" placeholder="E-mail">
+                    </label>
+                    <label class="label-input">
+                        <i class="fas fa-lock icon-modificado"></i>
+                        <input type="password" placeholder="Senha">
+                    </label>
+                    
+                    <a class="esqueciSenha" href="#">Olvidé la contraseña</a>
+                    <button class="btn btnLogin1">Entrar</button>
+                </form>
+            </div> 
+            <div class="content1 sign-up-container"> 
+                <form class="login">
+                    <h2 class="tituloForm2">Cree su cuenta</h2> 
+                    <div class="socialMedia">
+                        <a  class="icone1" href="#"><i class="fab fa-google-plus-g"></i></a>
+                        <a class="icone2" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a  class="icone3" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <p class="texto">Ou crie use seu e-mail para se cadastrar</p>
+                    <label class="label-input">
+                        <i class="far fa-user icon-modificado"></i>
+                        <input type="text" placeholder="Nome">
+                    </label>
+                    <label class="label-input">
+                        <i class="far fa-envelope icon-modificado"></i>
+                        <input type="email" placeholder="E-mail">
+                    </label>
+                    <label class="label-input">
+                        <i class="fas fa-lock icon-modificado"></i>
+                        <input type="password" placeholder="Senha">
+                    </label>
+                    <button class="btn btnCadastro1">Registrar</button>
+                </form>
+            </div>  
+            
+            <div class="overlay-container">
+                <div class="overlay">
+                    <div class="content2 contentEsq">
+                     <h2 class="tituloInform">Bienvenido</h2>
+                        <p class="texto2">Si usted ya tiene una cuenta, inicie sesión</p>
+                        <button class="btn2 btnLogin2" id="signIn">Entrar</button>
+                    </div>
+                    <div class="content2 contentDir">
+                        <h2 class="tituloInform">Bienvenido</h2>
+                        <p class="texto2">Regístrese con su email</p>
+                        <button class="btn2 btnCadastro2" id="signUp"></span>Registrar</span></button>
+                    </div>
+               </div>
+            </div>
+        </div>
+    
+        <div class="noturno">
+            <input type="checkbox" class="checkbox" id="checkbox">
+                <label for="checkbox" class="label">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <div class ="ball"></div>
+                </label>
+            </div>
+    
+            <script src="js/formulario.js"></script>
+    
+  </main>
+  <footer-component></footer-component>
+</body>
+</html>

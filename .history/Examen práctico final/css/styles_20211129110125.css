@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+ background-image:url(../img/flower-g59389d559_1920.jpg);
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  opacity: 0.7;
+}
+
+ h1{
+     text-align: center;
+     font-size: 200px;
+     margin-top:200px;
+ }
+  
+  main {
+    flex: 1 0 auto;
+  }
+  
+  @media(max-width: 1200px) {
+    .top-nav {
+        background: #881f1f;
+    }
+
+    .nav-list {
+        justify-content: center;
+    }
+
+    .nav-link {
+        font-size: 25px;
+    }
+
+}
+
+@media(max-width: 900px) {
+  
+    .top-nav {
+        height: 25vh;
+        top: -25vh;
+    }
+
+    .nav-list {
+        width: 70%;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .nav-link {
+        margin: 3px 0;
+    }
+
+
+
+
+
+    
